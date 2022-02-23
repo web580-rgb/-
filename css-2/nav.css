@@ -1,0 +1,23 @@
+.d {
+    margin: -22px -8px;
+    background-image: url(img/bg.jpeg);
+    width: 1591px;
+    height: 168px;
+    background-color: aquamarine;
+}
+.d-2 {
+    margin: 16px 464px;
+}
+
+.d-3 {
+    margin: -140px -322px;
+}
+.reward{
+    width: 20px;
+    height: 20px;background-color: aqua;
+   margin: 50px 868px;
+}
+.reward-1{
+    width: 64px;
+    height: 64px;
+}

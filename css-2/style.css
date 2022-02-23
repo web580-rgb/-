@@ -1,0 +1,60 @@
+*ul{
+    width: 200;
+    height:210;
+    background-color: chartreuse;
+}
+.p0{
+    color:#f08080
+}
+#nav {
+
+    width: 80px;
+    height: 228px;
+    position: fixed;
+    right: 24px;
+    top:260px;
+    float: right;
+    background-color: #27ecdc;
+}
+
+a {
+    margin: 7px;
+   
+}
+.lian{
+    color:#f08080;
+}
+
+li:nth-of-type(1):hover {
+    background: rgb(17, 216, 61)
+}
+
+* {
+    list-style: none
+}
+
+li {
+    width: 50px;
+    height: 20px;
+    background: none;
+    float: left;
+}
+
+img {
+    width: 1000px;
+    height: 429px;
+}
+
+p {
+    color: rgb(228, 161, 205);
+}
+
+.p1 {
+    color: chartreuse;
+}
+
+.p2 {
+    color: chocolate;
+}
+ 
+   
