@@ -1,0 +1,36 @@
+.nav-{
+    width: 20px;
+    height: 20px;
+    background-color:aquamarine;
+    
+    margin: 5px 50px;
+}
+body{
+    margin: 0;
+}
+.con {   
+    width: 1583px;
+    /* background-color:rgb(167, 171, 175); */
+    text-align: center;
+}
+.con-2{
+    width: 1583px;
+    /* background-color: rgba(255, 204, 255, .6); */
+    text-align: center;
+}
+.con-3{
+    width: 1583px;  
+    /* background-color:  rgba(220, 147, 57, .3); */
+    text-align: center;
+}
+.con-4{
+    width: 1583px;  
+    /* background-color: #E3E898; */
+    text-align: center;
+    
+}
+.con-5{
+    width: 1583px;  
+     /* background-color: rgb(83, 255, 71, 50%); */
+    text-align: center;
+}

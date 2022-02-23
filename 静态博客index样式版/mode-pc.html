@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雷厉风行的web前端代码小笔记</title>
+    <!--网页标题图标 -->
+    <link rel="shortcut icon" href="img/标签页logo：记事本.png">
+    <!--  -->
+    <link rel="stylesheet" href="css-2/style.css">
+    <!-- 主要内容的css代码引入 -->
+    <link rel="stylesheet" href="css-2/box.css">
+    <!-- <meta name="keywords" content="个人博客,初中生学习前端,雷厉风行的web前端代码小笔记  "> -->
+
+    <!-- css代码 -->
+    <style>
+        /* 背景图 */
+        body{
+            background-image: url(img-2/bj3.jpg);    
+        }
+        .d {
+            margin: -22px -8px;
+            background-image: url(img/bg.jpeg);
+            width: 1591px;
+            height: 168px;
+            background-color: aquamarine;
+        }
+
+        .d-2 {
+            margin: 16px 464px;
+        }
+
+        .d-3 {
+            margin: -140px -322px;
+        }
+
+        .reward {
+            width: 20px;
+            height: 20px;
+            background-color: aqua;
+            margin: 50px 868px;
+        }
+
+        .reward-1 {
+            width: 64px;
+            height: 64px;
+        }
+    </style>
+</head>
+
+<body>  
+
+    <!-- 顶部导航 -->
+    <div class="d">
+        <div class="d-2">
+            <h1>我是一个前端爱好者，这里强烈声明本网站只用于学习使用没有任何商业用途 ( •̀ ω •́ )</h1>
+            <h3>个人QQ:2777368400欢迎各位前端大佬来指点(*^_^*)</h3>
+            <div class="d-3">
+                <a href="index.html">回到首页</a>
+                <br>
+                <br>
+                <a href="#css">css样式</a>
+                <br>
+                <br>
+                <a href="#sel">选择器取名规范</a>
+                <br>
+                <br>
+                <a href="#float">排列/位移/浮动</a>
+            </div>
+            <!-- 打赏页面-->
+            <div class="reward ">
+                <a href="打赏.html"><img class="reward-1" src="img-2/打赏.png" alt=""></a>  
+            </div>
+        </div>
+    </div>
+    <!-- 右侧导航 -->
+    <div id="nav">
+      
+        <a href="http://i412v09114.qicp.vip/"></a>
+        <a href="#box">返回</a>
+        <br>
+        <hr>
+        <a href="#css">css样式</a>
+        <br>
+
+        <hr>
+        <a href="#sel">选择器取名规范</a>
+        <br> <!--空行-->
+        <hr> <!--横线-->
+        <a href="#float">排列/位移/浮动</a>
+    </div>
+    <!-- 超链接 -->
+    <div class="con">
+        <br>
+        <h1 class="con-1" id="box">超链接和锚链接</h1>
+        <p class="con-1" id="p1">超链接是指可以让网页实现跳转点击这个链接可以在本网页的跳转<a class="lian" href="http://www.baidu.com/">点击跳转到百度</a>
+        </p>
+        <!--普通跳转的超链接-->
+        <p class="con-1">超链接是指可以让网页实现跳转点击这个链接可以新建网页进行跳转<a class="lian" href="http://www.baidu.com/"
+                target="_blank">点击跳转到百度</a></p>
+        <!--另起网页跳转的超链接-->
+        <img class="con-1" src="img-2\1.png">
+        <img class="con-1" src="img-2\2.png">
+    </div>
+    <hr>
+    <!-- 锚链接 -->
+    <div class="con-2">
+        <h2>下面我们来学习锚链接</h2>
+        <p>锚链接可以理解为是一种导航也是一种链接让网页进行跳转,制作锚链接一般有两步，第一步为标签添加ID样式如图所示:</p>
+        <img src="img-2/3.png" alt="">
+        <p>第二步在href=" "这里在#号后添加ID的名字（比如说#p1）如图所示：</p>
+        <a href="#p1"></a>
+        <img src="img-2/4.png">
+    </div>
+    <!-- 横 线   -->
+    <hr>
+    <!-- css样式 -->
+    <div class="con-3">
+        <h1 id="css">css样式</h1>
+        <p>background-image: url();(添加背景图片)</p>
+        <p>align="center"(文字居中)</p>
+        <p>text-align:center ; 文字居中*/</p>
+        <p>font-size:1px;/*文字大小*/</p>
+        <p>float：left； /*浮动*/</p>
+    </div>
+    <!-- 横线 -->
+    <hr>
+    <!-- 选择器取名规范(不常样用的有括号) -->
+    <div class="con-4">
+        <h3 id="sel">选择器取名规范(不常样用的有括号颜色为【绿色】)</h3>
+        <p>头:hedader</p>
+        <p>内容:content/container</p>
+        <p>尾：footer</p>
+        <p>导航：nav</p>
+        <p>侧边栏：sidebar</p>
+        <p>栏目：column</p>
+        <p>页面外围控制整体布局宽度：wrapper</p>
+        <p>左、 右 、中：left、right、center</p>
+        <p class="p1">(登录条：loginbar)</p>
+        <p>标志：logo</p>
+        <p>广告：banner</p>
+        <p>页面主体：main</p>
+        <p>热点：hot</p>
+        <p>新闻：news</p>
+        <p>下载：download</p>
+        <p>子导航：subnav</p>
+        <p>搜索：search</p>
+        <p>友情链接：friendlink</p>
+        <p>页脚：footer</p>
+        <p>版权：copyright</p>
+        <p>滚动：scroll</p>
+        <p>内容：content </p>
+        <p>标签：tags</p>
+        <p>文章列表：list</p>
+        <p>提示信息：msg</p>
+        <p>小技巧：tips</p>
+        <p>栏目标题：title</p>
+        <p>加入：joinus</p>
+        <p>指南：guide</p>
+        <p>服务：service</p>
+        <p>注册:regsiter</p>
+    </div>
+    <!-- 横线 -->
+    <hr>
+    <!-- 排列、  位移、  浮动 -->
+    <div class="con-5">
+        <h3 id="float">排列、位移、浮动:</h3>
+        <p class="p2">向右排列：dislpay: inline-block 可以是文字（图片）向右排列</p>
+        <p class="p2">位移：transform: translateY(201px) translateX(201px) 【Y(上下)、X（左右）X轴位移】</p>
+        <!-- JavaScript模块 -->
+    <h1>JavaScript代码模块</h1>    
+    <h3>1.注释篇(该快捷键仅在vscode中见效！)</h3>
+    <p>单行注释：//这是单行注释 快捷键：CTRL+/（在要备注是的代码前面添加两个反斜杠：//单行注释标签）</p>
+    <p>多行注释注释：/**/这是单行注释 快捷键：CTRL+Shift+A（在要备注是的代码前面添加/*多行注释标签*/）</p>
+    <!-- 个人qq -->
+    <p>个人QQ号:2777368400如果代码有什么错误的地方还欢迎大家来指正错误呀</p>
+    <h3>个人QQ号:2777368400如果代码有什么错误的地方还欢迎大家来指正错误呀</h3> 
+    </div>
+</body>
+
+</html>
+<!-- 注释20行（本行除外） 162 -->
